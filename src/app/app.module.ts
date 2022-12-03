@@ -29,8 +29,7 @@ import { MovieInputsComponent } from './pages/movie-inputs/movie-inputs.componen
   bootstrap: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
-    MovieListComponent
+    FooterComponent
   ]
 })
 export class AppModule { }
