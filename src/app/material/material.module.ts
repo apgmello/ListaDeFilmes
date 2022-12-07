@@ -7,25 +7,28 @@ import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule, 
-    MatToolbarModule, 
-    MatExpansionModule, 
-    MatTableModule, 
+    CommonModule,
+    MatToolbarModule,
+    MatExpansionModule,
+    MatTableModule,
     MatInputModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule,
   ],
   exports: [
-    MatToolbarModule, 
-    MatExpansionModule, 
-    MatTableModule, 
+    MatToolbarModule,
+    MatExpansionModule,
+    MatTableModule,
     MatInputModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule,
   ],
 })
 export class MaterialModule {}

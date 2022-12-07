@@ -10,6 +10,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './pages/movie-list/movie-list.component';
 import { MovieInputsComponent } from './pages/movie-inputs/movie-inputs.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,10 @@ import { MovieInputsComponent } from './pages/movie-inputs/movie-inputs.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    SharedModule,
   ],
   providers: [],
-  bootstrap: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent
-  ]
+  bootstrap: [AppComponent, HeaderComponent, FooterComponent],
 })
-export class AppModule { }
+export class AppModule {}
