@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: 'list', component: MovieListComponent },
   { path: 'create', component: MovieInputsComponent },
-  //cd{ path:"", redirectTo: "list", pathMatch: "full" },
+  { path:"", redirectTo: "create", pathMatch: "full" },
   { path: '**', component: PageNotFoundComponent },
 ];
 
